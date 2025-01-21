@@ -47,6 +47,13 @@
   /* main {
     padding: 0 17px;
   } */
+
+  .section-title {
+    font-size: 32px;
+  }
+  .grade{
+    font-size: 20px;
+  }
   .card-container {
     grid-template-columns: repeat(1, 1fr);
   }
