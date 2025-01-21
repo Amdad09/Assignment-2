@@ -113,6 +113,7 @@ marquee {
   position: sticky;
   top: 0;
   z-index: 1;
+  margin: 20px 0;
   background-color: #ffd700;
   padding: 15px;
   font-size: 24px;
