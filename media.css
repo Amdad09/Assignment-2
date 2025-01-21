@@ -20,6 +20,7 @@
     display: none;
   }
   .navigate-menu > i {
+    font-size: 2rem;
     display: block;
   }
   .navigate {
@@ -108,6 +109,7 @@
     display: none;
   }
   .navigate-menu > i {
+    font-size: 2rem;
     display: block;
   }
   .navigate {

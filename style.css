@@ -89,6 +89,7 @@ nav a {
 .enroll-btn:hover {
   background-color: black;
   color: #fff;
+  border: 2px solid black;
 }
 
 .banner-title {
@@ -100,8 +101,9 @@ nav a {
   margin: 1.5rem 0;
 }
 /* main section */
-main {
-  background-image: url("./assets/bg.png");
+
+.curriculum {
+  background: url(./assets/bg.png) no-repeat center;
 }
 main > * {
   text-align: center;
@@ -124,6 +126,9 @@ marquee {
 .grade {
   font-size: 24.52px;
   font-weight: 700;
+}
+.elementary-grade{
+  margin-top: 12px;
 }
 .curriculum-description {
   font-size: 15.09px;
@@ -153,6 +158,7 @@ marquee {
   border: none;
   outline: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .card-container {
   display: grid;
@@ -202,7 +208,7 @@ marquee {
 }
 
 .stories {
-  background:
+  background: url(./assets/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
 .stories-box button {
