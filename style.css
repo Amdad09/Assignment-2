@@ -110,13 +110,27 @@ main > * {
   padding: 3.75rem auto;
 }
 marquee {
-  margin: 20px auto;
+  background-color: #ffd700;
+  margin: 20px 100px;
+  /* width: 80%;
+  margin: auto; */
+  /* margin: 20px auto; */
   padding: 15px;
   font-size: 24px;
   font-weight: bold;
   color: rgb(5, 5, 5);
-  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 0.1); */
   text-align: center;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2); 
+  text-shadow: 2px 2px 5px rgba(255, 69, 0, 0.6); 
+  border-radius: 18px;
+}
+marquee > p {
+  color: #ff4500;
+}
+marquee span{
+  color: red;
+  font: bold;
 }
 .section-title {
   font-size: 46px;
@@ -127,7 +141,7 @@ marquee {
   font-size: 24.52px;
   font-weight: 700;
 }
-.elementary-grade{
+.elementary-grade {
   margin-top: 12px;
 }
 .curriculum-description {
@@ -223,19 +237,19 @@ marquee {
   border: none;
   cursor: pointer;
 }
-.first{
+.first {
   background-color: rgb(149, 178, 38);
 }
-.one{
+.one {
   background-color: rgb(254, 163, 1);
 }
-.two{
+.two {
   background-color: rgb(1, 172, 253);
 }
-.three{
+.three {
   background-color: rgb(5, 212, 223);
 }
-.four{
+.four {
   background-color: rgb(93, 88, 239);
 }
 .stories-description {
