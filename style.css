@@ -103,7 +103,7 @@ nav a {
 /* main section */
 
 .curriculum {
-  background: url(./assets/bg.png) no-repeat center;
+  background: url(./assets/bg.png) no-repeat;
 }
 main > * {
   text-align: center;
