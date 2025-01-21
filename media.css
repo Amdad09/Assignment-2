@@ -2,7 +2,11 @@
   body {
     padding: 0;
   }
-  header,.curriculum, .stories {
+  header{
+    padding: 0;
+  }
+
+  .curriculum, .stories {
     padding: 0 17px;
   }
   main > :first-child {
@@ -62,6 +66,9 @@
     width: 10%;
   }
 
+  .stories-description {
+    padding: 0 10px 32px 20px;
+  }
   .stories-container .box-1{
       display: none;
   }
@@ -79,7 +86,10 @@
   body {
     padding: 0;
   }
-  header,.curriculum, .stories {
+  header{
+    padding: 0;
+  }
+  .curriculum, .stories {
     padding: 0 17px;
   }
   main > :first-child {
